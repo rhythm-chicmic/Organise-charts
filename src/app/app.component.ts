@@ -8,8 +8,9 @@ import OrgChart from "@balkangraph/orgchart.js";
 export class AppComponent implements OnInit {
   title = 'orgChart';
   drop = true
+  parentChildRelation:any
   ngOnInit() {
-    var parentChildRelation = [
+     this.parentChildRelation = [
       { from: 7, to: 1, template: 'blue', label: 'Reporting Head' },
       { from: 6, to: 1, template: 'blue', label: 'Reporting Head' },
 
@@ -37,7 +38,7 @@ export class AppComponent implements OnInit {
           }
         },
         align: OrgChart.align.orientation,
-        clinks: parentChildRelation,
+        clinks: this.parentChildRelation,
         // mouseScrool: OrgChart.action.none,
 
         toolbar: {
