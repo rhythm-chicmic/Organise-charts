@@ -7,7 +7,7 @@ import OrgChart from "@balkangraph/orgchart.js";
 })
 export class AppComponent implements OnInit {
   title = 'orgChart';
-  drop = false
+  drop = true
   ngOnInit() {
     var parentChildRelation = [
       { from: 7, to: 1, template: 'blue', label: 'Reporting Head' },
