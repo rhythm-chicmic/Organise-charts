@@ -28,6 +28,7 @@ const tree = document.getElementById('tree1');
 if(tree){
 var chart = new OrgChart(tree,{
   // mouseScrool: OrgChart.none,
+  // mouseScrool: OrgChart.action.ctrlZoom,
   template: "olivia",
   enableDragDrop: true,
   nodeMouseClick: OrgChart.action.edit,
@@ -41,6 +42,7 @@ var chart = new OrgChart(tree,{
   //     addInGroup:   "Add in group" ,
   //     addAsChild: "Add as child" 
   // },
+  mouseScrool: OrgChart.action.scroll,
   
   nodeBinding: {
       imgs: "img",
@@ -70,6 +72,12 @@ var chart = new OrgChart(tree,{
               columns: 2
           }
       },
+  },
+  toolbar:{
+    layout: true,
+    zoom: true,
+    fit: true,
+    expandAll: true
   }
 });
   

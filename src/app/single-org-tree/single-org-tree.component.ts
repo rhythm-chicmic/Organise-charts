@@ -38,15 +38,18 @@ export class SingleOrgTreeComponent implements OnInit{
             pdf: null
           }
         },
-        align: OrgChart.align.orientation,
+        align: OrgChart.align.center,
+        mouseScrool: OrgChart.action.scroll,
         clinks: this.parentChildRelation,
         // mouseScrool: OrgChart.action.none,
+      //  mouseScrool: OrgChart.action.ctrlZoom,
 
         toolbar: {
-          fit: true,
           layout: true,
-          fullScreen: true,
-
+          zoom: true,
+          fit: true,
+          expandAll: true
+          
         }
       },
       );
