@@ -5,15 +5,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { GroupChartComponent } from './group-chart/group-chart.component';
 import { SingleOrgTreeComponent } from './single-org-tree/single-org-tree.component';
-
+import { OrganizationChartModule } from 'primeng/organizationchart';
+import { NgPrimeComponent } from './ng-prime/ng-prime.component';
 @NgModule({
   declarations: [
     AppComponent,
     GroupChartComponent,
-    SingleOrgTreeComponent
+    SingleOrgTreeComponent,
+    NgPrimeComponent
   ],
   imports: [
     BrowserModule,
+    OrganizationChartModule,
     AppRoutingModule
   ],
   providers: [],

@@ -15,5 +15,8 @@ this.router.navigate(['home'])
   singleTree(){
   this.router.navigate(['simple-tree'])
   }
+  primeNg(){
+    this.router.navigate(['primeng'])
+  }
 
 }
