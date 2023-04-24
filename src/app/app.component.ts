@@ -7,7 +7,7 @@ import OrgChart from "@balkangraph/orgchart.js";
 })
 export class AppComponent implements OnInit {
   title = 'orgChart';
-  drop = false
+  drop = true
   ngOnInit() {
     var parentChildRelation = [
       { from: 7, to: 1, template: 'blue', label: 'Reporting Head' },
@@ -30,7 +30,7 @@ export class AppComponent implements OnInit {
         editForm: {
           saveAndCloseBtn: 'save',
           cancelBtn: 'cancel',
-          readOnly: true,
+          // readOnly: true,
           buttons: {
             share: null,
             pdf: null
@@ -38,7 +38,7 @@ export class AppComponent implements OnInit {
         },
         align: OrgChart.align.orientation,
         clinks: parentChildRelation,
-        mouseScrool: OrgChart.action.none,
+        // mouseScrool: OrgChart.action.none,
 
         toolbar: {
           fit: true,
@@ -46,15 +46,12 @@ export class AppComponent implements OnInit {
           fullScreen: true,
 
         }
-
-
-
-
       },
-
-
       );
-
+      chart.onUpdateNode((args) => {
+       console.log(args)
+       
+    });
 
 
 
@@ -75,12 +72,12 @@ export class AppComponent implements OnInit {
         console.log(res)
       })
       chart.onNodeClick((res) => {
-        console.log(res)
-        console.log(res.node.id)
-        const data = { id: res.node.id, pid: 2, name: "Rahul Patel", title: "Sales", img: "https://cdn.balkan.app/shared/5.jpg" }
-        const curr_id = res.node.id
-        const ans = chart.get(2)
-        console.log(ans)
+        // console.log(res)
+        // console.log(res.node.id)
+        // const data = { id: res.node.id, pid: 2, name: "Rahul Patel", title: "Sales", img: "https://cdn.balkan.app/shared/5.jpg" }
+        // const curr_id = res.node.id
+        // const ans = chart.get(2)
+        // console.log(ans)
       })
 
 
