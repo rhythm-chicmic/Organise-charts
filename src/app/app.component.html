@@ -20,13 +20,21 @@
         <li class="nav-item">
           <a class="nav-link" (click)="angularOrgChart()">Angular Org Chart</a>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link" (click)="ngxOrgChart()">Ngx Org Chart</a>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link" (click)="koChart()">Ngx Org Chart</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" (click)="d3Chart()">D3 Chart</a>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link" (click)="show()">D3 Js Data</a>
         </li>
      
       </ul>
     </div>
   </nav>
-
-
+<app-d3-charts [data]="data"></app-d3-charts>
 <router-outlet></router-outlet>

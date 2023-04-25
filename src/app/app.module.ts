@@ -13,6 +13,12 @@ import { OrgChartModule } from 'angular13-organization-chart';
 import { AngularOrgChartComponent } from './angular-org-chart/angular-org-chart.component';
 import { NgxOrgChartComponent } from './ngx-org-chart/ngx-org-chart.component';
 import { NgxOrgChartModule } from 'ngx-org-chart';
+import { OrgchartModule } from '@dabeng/ng-orgchart';
+import { OrgChartkoComponent } from './org-chartko/org-chartko.component';
+import { D3ChartsComponent } from './d3-charts/d3-charts.component';
+import { ShowDataComponent } from './show-data/show-data.component';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +28,10 @@ import { NgxOrgChartModule } from 'ngx-org-chart';
     
     ChartJsComponent,
     AngularOrgChartComponent,
-    NgxOrgChartComponent
+    NgxOrgChartComponent,
+    OrgChartkoComponent,
+    D3ChartsComponent,
+    ShowDataComponent
   ],
   imports: [
     BrowserModule,
@@ -30,6 +39,7 @@ import { NgxOrgChartModule } from 'ngx-org-chart';
     NgxOrgChartModule,
     OrganizationChartModule,
     NgChartsModule,
+    OrgchartModule,
     AppRoutingModule
   ],
   providers: [],
