@@ -18,5 +18,13 @@ this.router.navigate(['home'])
   primeNg(){
     this.router.navigate(['primeng'])
   }
-
+  // chartJs(){
+  //   this.router.navigate(['chartjs'])
+  // }
+  angularOrgChart(){
+    this.router.navigate(['angular-org'])
+  }
+  ngxOrgChart(){
+    this.router.navigate(['ngx-org-chart'])
+  }
 }
