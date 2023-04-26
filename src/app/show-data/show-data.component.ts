@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import * as d3 from "d3";
+import * as d3Hierarchy from 'd3-hierarchy';
+import * as d3Drag from 'd3-drag'
 @Component({
   selector: 'app-show-data',
   templateUrl: './show-data.component.html',

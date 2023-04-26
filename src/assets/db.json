@@ -1,6 +1,8 @@
 {"data":[
     {
         "nodeId": "O-1",
+        "positionName":"CEO",
+        "name":"Rahul",
         "parentNodeId": null,
         "width": 342,
         "height": 146,
@@ -53,6 +55,8 @@
     },
     {
         "nodeId": "O-2",
+        "name":"Sahil",
+        "positionName":"Manager",
         "parentNodeId": "O-1",
         "width": 331,
         "height": 139,
@@ -105,6 +109,8 @@
     },
     {
         "nodeId": "O-3",
+        "name":"Mani Ram",
+        "positionName":"IT Head",
         "parentNodeId": "O-1",
         "width": 331,
         "height": 139,
@@ -157,6 +163,8 @@
     },
     {
         "nodeId": "O-4",
+        "name":"Sunny",
+        "positionName":"HR ",
         "parentNodeId": "O-1",
         "width": 331,
         "height": 139,
@@ -209,6 +217,8 @@
     },
     {
         "nodeId": "O-5",
+        "name":"Andrew",
+        "positionName":"Sales Head",
         "parentNodeId": "O-1",
         "width": 331,
         "height": 139,
@@ -262,6 +272,224 @@
     {
         "nodeId": "O-6",
         "parentNodeId": "O-2",
+        "name":"Roman",
+        "positionName":"Software Engineer",
+        "width": 331,
+        "height": 139,
+        "borderWidth": 1,
+        "borderRadius": 5,
+        "borderColor": {
+            "red": 15,
+            "green": 140,
+            "blue": 121,
+            "alpha": 1
+        },
+        "backgroundColor": {
+            "red": 51,
+            "green": 182,
+            "blue": 208,
+            "alpha": 1
+        },
+        "nodeImage": {
+            "url": "https://media.istockphoto.com/id/1144647692/photo/corporate-group-portrait-of-cheering-staff-members.jpg?s=1024x1024&w=is&k=20&c=0r--wm1jWJQnzuzIWnTQocVfd8uopDFknjJqw6Okj2c=",
+            "width": 100,
+            "height": 100,
+            "centerTopDistance": 0,
+            "centerLeftDistance": 0,
+            "cornerShape": "CIRCLE",
+            "shadow": false,
+            "borderWidth": 0,
+            "borderColor": {
+                "red": 19,
+                "green": 123,
+                "blue": 128,
+                "alpha": 1
+            }
+        },
+        "nodeIcon": {
+            "icon": "https://to.ly/1yZnX",
+            "size": 30
+        },
+        "template": "<div>\n  <div style=\"margin-left:70px;\n  margin-top:10px;\n  font-size:20px;\n  font-weight:bold;\">Ian Devling </div>\n  <div style=\"margin-left: 70px;\n  margin-top:3px;\n  font-size:16px;\">Cheaf Executive Officer </div>\n  <div style=\"margin-left: 70px;\n  margin-top:3px;\n  font-size:14px;\">Business first</div>\n  <div style=\"margin-left:196px;\n  margin-top:15px;\n  font-size:13px;\n  position:absolute;\n  bottom:5px;\">\n      <div>CTO office</div>\n      <div style=\"margin-top:5px\">Corporate</div>\n  </div>\n</div>",
+        "connectorLineColor": {
+            "red": 220,
+            "green": 189,
+            "blue": 207,
+            "alpha": 1
+        },
+        "connectorLineWidth": 5,
+        "dashArray": "",
+        "expanded": false,
+        "directSubordinates": 4,
+        "totalSubordinates": 1515
+    },
+    {
+        "nodeId": "O-8",
+        "parentNodeId": "O-3",
+        "name":"Roman",
+        "positionName":"Software Engineer",
+        "width": 331,
+        "height": 139,
+        "borderWidth": 1,
+        "borderRadius": 5,
+        "borderColor": {
+            "red": 15,
+            "green": 140,
+            "blue": 121,
+            "alpha": 1
+        },
+        "backgroundColor": {
+            "red": 51,
+            "green": 182,
+            "blue": 208,
+            "alpha": 1
+        },
+        "nodeImage": {
+            "url": "https://media.istockphoto.com/id/1144647692/photo/corporate-group-portrait-of-cheering-staff-members.jpg?s=1024x1024&w=is&k=20&c=0r--wm1jWJQnzuzIWnTQocVfd8uopDFknjJqw6Okj2c=",
+            "width": 100,
+            "height": 100,
+            "centerTopDistance": 0,
+            "centerLeftDistance": 0,
+            "cornerShape": "CIRCLE",
+            "shadow": false,
+            "borderWidth": 0,
+            "borderColor": {
+                "red": 19,
+                "green": 123,
+                "blue": 128,
+                "alpha": 1
+            }
+        },
+        "nodeIcon": {
+            "icon": "https://to.ly/1yZnX",
+            "size": 30
+        },
+        "template": "<div>\n  <div style=\"margin-left:70px;\n  margin-top:10px;\n  font-size:20px;\n  font-weight:bold;\">Ian Devling </div>\n  <div style=\"margin-left: 70px;\n  margin-top:3px;\n  font-size:16px;\">Cheaf Executive Officer </div>\n  <div style=\"margin-left: 70px;\n  margin-top:3px;\n  font-size:14px;\">Business first</div>\n  <div style=\"margin-left:196px;\n  margin-top:15px;\n  font-size:13px;\n  position:absolute;\n  bottom:5px;\">\n      <div>CTO office</div>\n      <div style=\"margin-top:5px\">Corporate</div>\n  </div>\n</div>",
+        "connectorLineColor": {
+            "red": 220,
+            "green": 189,
+            "blue": 207,
+            "alpha": 1
+        },
+        "connectorLineWidth": 5,
+        "dashArray": "",
+        "expanded": false,
+        "directSubordinates": 4,
+        "totalSubordinates": 1515
+    },
+    {
+        "nodeId": "O-6",
+        "parentNodeId": "O-2",
+        "name":"Roman",
+        "positionName":"Software Engineer",
+        "width": 331,
+        "height": 139,
+        "borderWidth": 1,
+        "borderRadius": 5,
+        "borderColor": {
+            "red": 15,
+            "green": 140,
+            "blue": 121,
+            "alpha": 1
+        },
+        "backgroundColor": {
+            "red": 51,
+            "green": 182,
+            "blue": 208,
+            "alpha": 1
+        },
+        "nodeImage": {
+            "url": "https://media.istockphoto.com/id/1144647692/photo/corporate-group-portrait-of-cheering-staff-members.jpg?s=1024x1024&w=is&k=20&c=0r--wm1jWJQnzuzIWnTQocVfd8uopDFknjJqw6Okj2c=",
+            "width": 100,
+            "height": 100,
+            "centerTopDistance": 0,
+            "centerLeftDistance": 0,
+            "cornerShape": "CIRCLE",
+            "shadow": false,
+            "borderWidth": 0,
+            "borderColor": {
+                "red": 19,
+                "green": 123,
+                "blue": 128,
+                "alpha": 1
+            }
+        },
+        "nodeIcon": {
+            "icon": "https://to.ly/1yZnX",
+            "size": 30
+        },
+        "template": "<div>\n  <div style=\"margin-left:70px;\n  margin-top:10px;\n  font-size:20px;\n  font-weight:bold;\">Ian Devling </div>\n  <div style=\"margin-left: 70px;\n  margin-top:3px;\n  font-size:16px;\">Cheaf Executive Officer </div>\n  <div style=\"margin-left: 70px;\n  margin-top:3px;\n  font-size:14px;\">Business first</div>\n  <div style=\"margin-left:196px;\n  margin-top:15px;\n  font-size:13px;\n  position:absolute;\n  bottom:5px;\">\n      <div>CTO office</div>\n      <div style=\"margin-top:5px\">Corporate</div>\n  </div>\n</div>",
+        "connectorLineColor": {
+            "red": 220,
+            "green": 189,
+            "blue": 207,
+            "alpha": 1
+        },
+        "connectorLineWidth": 5,
+        "dashArray": "",
+        "expanded": false,
+        "directSubordinates": 4,
+        "totalSubordinates": 1515
+    },
+    {
+        "nodeId": "O-9",
+        "parentNodeId": "O-5",
+        "name":"Roman",
+        "positionName":"Software Engineer",
+        "width": 331,
+        "height": 139,
+        "borderWidth": 1,
+        "borderRadius": 5,
+        "borderColor": {
+            "red": 15,
+            "green": 140,
+            "blue": 121,
+            "alpha": 1
+        },
+        "backgroundColor": {
+            "red": 51,
+            "green": 182,
+            "blue": 208,
+            "alpha": 1
+        },
+        "nodeImage": {
+            "url": "https://media.istockphoto.com/id/1144647692/photo/corporate-group-portrait-of-cheering-staff-members.jpg?s=1024x1024&w=is&k=20&c=0r--wm1jWJQnzuzIWnTQocVfd8uopDFknjJqw6Okj2c=",
+            "width": 100,
+            "height": 100,
+            "centerTopDistance": 0,
+            "centerLeftDistance": 0,
+            "cornerShape": "CIRCLE",
+            "shadow": false,
+            "borderWidth": 0,
+            "borderColor": {
+                "red": 19,
+                "green": 123,
+                "blue": 128,
+                "alpha": 1
+            }
+        },
+        "nodeIcon": {
+            "icon": "https://to.ly/1yZnX",
+            "size": 30
+        },
+        "template": "<div>\n  <div style=\"margin-left:70px;\n  margin-top:10px;\n  font-size:20px;\n  font-weight:bold;\">Ian Devling </div>\n  <div style=\"margin-left: 70px;\n  margin-top:3px;\n  font-size:16px;\">Cheaf Executive Officer </div>\n  <div style=\"margin-left: 70px;\n  margin-top:3px;\n  font-size:14px;\">Business first</div>\n  <div style=\"margin-left:196px;\n  margin-top:15px;\n  font-size:13px;\n  position:absolute;\n  bottom:5px;\">\n      <div>CTO office</div>\n      <div style=\"margin-top:5px\">Corporate</div>\n  </div>\n</div>",
+        "connectorLineColor": {
+            "red": 220,
+            "green": 189,
+            "blue": 207,
+            "alpha": 1
+        },
+        "connectorLineWidth": 5,
+        "dashArray": "",
+        "expanded": false,
+        "directSubordinates": 4,
+        "totalSubordinates": 1515
+    },
+    {
+        "nodeId": "O-10",
+        "parentNodeId": "O-9",
+        "name":"Roman",
+        "positionName":"Software Engineer",
         "width": 331,
         "height": 139,
         "borderWidth": 1,
